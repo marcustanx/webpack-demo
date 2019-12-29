@@ -1,0 +1,35 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "Extend create-react-app with webpack to test Youtube API",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Marcus Tan",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@webpack-cli/serve": "^0.2.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.3.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
